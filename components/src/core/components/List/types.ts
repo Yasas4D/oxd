@@ -128,4 +128,6 @@ export interface ListTable {
   };
   selectable?: boolean;
   addable?: boolean;
+  hideHeaders?: boolean;
+  disableHeader?: boolean;
 }
